@@ -1,0 +1,228 @@
+(footprint "SSD1306"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 13 18 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a53bd57e-a31b-48e3-bd97-3f03d50cdf13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SSD1306"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d990a1b7-72c1-414b-b4f5-17173f9812a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "efc23273-7613-4609-a641-8963ea970ff3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97c212ea-e206-4fc4-8e97-ad9f1dc9f0b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -13.5 -12)
+		(end 15 -12)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2de3a7f9-c742-4bbd-8234-8245d9c24e37")
+	)
+	(fp_line
+		(start -13.5 16)
+		(end -13.5 -12)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fb0d507b-5803-45e7-818d-148080e59717")
+	)
+	(fp_line
+		(start 15 -12)
+		(end 15 16)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e94ae391-31af-422a-a76e-dc48343f4d1f")
+	)
+	(fp_line
+		(start 15 16)
+		(end -13.5 16)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c32bb54f-dc58-403a-8f17-c317acc44613")
+	)
+	(fp_text user "GND"
+		(at -3 -6 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "661023f3-d6ad-4dbd-b665-a28bab68f37e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "VCC"
+		(at -0.5 -6 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e94bf310-b40e-4fe9-a6ae-eb152208244a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "SCL"
+		(at 2 -6 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4daa4064-8462-4334-99f9-ee0442755be0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "SDA"
+		(at 4.5 -6 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b3411996-488b-4a28-aeb3-b2acec3291c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6306b46d-e070-43b7-ae61-bcb7d5db30ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -3.69 -10)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "30a0d7d5-e673-419b-9baf-2b03c8b39bc8")
+	)
+	(pad "2" thru_hole roundrect
+		(at -1.19 -10)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "487e10c8-0fdc-43f3-8bd5-9f6d4d7238f2")
+	)
+	(pad "3" thru_hole roundrect
+		(at 1.31 -10)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "bfeb11fd-1c41-4fab-a3f4-fc82ad049169")
+	)
+	(pad "4" thru_hole roundrect
+		(at 3.81 -10)
+		(size 1.27 1.27)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "054f1a30-b6a4-41ad-ad17-15fb46ddb7e9")
+	)
+	(zone
+		(layer "F.SilkS")
+		(uuid "479c9601-5761-4455-a821-7c77c321a99d")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -13.5 -12) (xy 15 -12) (xy 15 16) (xy -13.5 16)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
