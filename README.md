@@ -1,5 +1,3 @@
-<img width="1092" height="829" alt="Screenshot_20261120_171527" src="https://github.com/user-attachments/assets/f1530911-4349-4d29-a171-05dc0a7019c3" /># First Hardware Design
-
 >For my first design i followed a playlist from this guy, so check him out: https://www.youtube.com/@HTMWorkshop
 
 
@@ -28,7 +26,7 @@
 
 
 
-
+---
 
 
 
